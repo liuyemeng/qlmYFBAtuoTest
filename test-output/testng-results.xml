@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[测试通过]]>
+    </line>
+    <line>
+      <![CDATA[测试通过]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48293" started-at="2019-08-28T02:34:45Z" finished-at="2019-08-28T02:35:34Z">
+    <groups>
+    </groups>
+    <test name="lonin" duration-ms="48293" started-at="2019-08-28T02:34:45Z" finished-at="2019-08-28T02:35:34Z">
+      <class name="com.qlmYFB.autotest.testCase.OrginManage">
+        <test-method status="PASS" signature="BeforeUrl(java.lang.String, java.lang.String)[pri:0, instance:com.qlmYFB.autotest.testCase.OrginManage@61a485d2]" name="BeforeUrl" is-config="true" duration-ms="12235" started-at="2019-08-28T10:34:33Z" finished-at="2019-08-28T10:34:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D:\AutoTest\01 自动化培训\01 自动化培训\自动化测试工具\测试工具\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://weixin.qianlima.com/qlmYFB/index.html?openid=oFNc6s8Z7DfyW5CU4sVol0nBgrZQ#/subscriptionPage/zbSubscriptionPage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeUrl -->
+      </class> <!-- com.qlmYFB.autotest.testCase.OrginManage -->
+      <class name="com.qlmYFB.autotest.testCase.DYManageX">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qlmYFB.autotest.testCase.DYManageX@39fb3ab6]" name="beforeClass" is-config="true" duration-ms="2" started-at="2019-08-28T10:34:45Z" finished-at="2019-08-28T10:34:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="selectZhaoBiao()[pri:0, instance:com.qlmYFB.autotest.testCase.DYManageX@39fb3ab6]" name="selectZhaoBiao" duration-ms="1121" started-at="2019-08-28T10:34:45Z" finished-at="2019-08-28T10:34:47Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <svg data-v-6ae0c758="" aria-hidden="true" class="icon">...</svg> is not clickable at point (89, 56). Other element would receive the click: <div data-v-4192da2b="" data-v-92c4caa6="" class="activity-trailer-wrap">...</div>  (Session info: chrome=76.0.3809.100)  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'System info: host: 'DESKTOP-30ONHOD', ip: '169.254.230.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\pc\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50918}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.100, webStorageEnabled: true}Session ID: c50c70d1df164ac19f8980914bfe89df]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <svg data-v-6ae0c758="" aria-hidden="true" class="icon">...</svg> is not clickable at point (89, 56). Other element would receive the click: <div data-v-4192da2b="" data-v-92c4caa6="" class="activity-trailer-wrap">...</div>  (Session info: chrome=76.0.3809.100)  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'System info: host: 'DESKTOP-30ONHOD', ip: '169.254.230.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\pc\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50918}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.100, webStorageEnabled: true}Session ID: c50c70d1df164ac19f8980914bfe89dfat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)at com.qlmYFB.autotest.testCase.DYManageX.selectZhaoBiao(DYManageX.java:39)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectZhaoBiao -->
+        <test-method status="PASS" signature="orderZhaoBiao()[pri:0, instance:com.qlmYFB.autotest.testCase.DYManageX@39fb3ab6]" name="orderZhaoBiao" duration-ms="5881" started-at="2019-08-28T10:34:47Z" finished-at="2019-08-28T10:34:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[测试通过]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- orderZhaoBiao -->
+        <test-method status="PASS" signature="selectProject()[pri:0, instance:com.qlmYFB.autotest.testCase.DYManageX@39fb3ab6]" name="selectProject" duration-ms="12360" started-at="2019-08-28T10:34:52Z" finished-at="2019-08-28T10:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProject -->
+        <test-method status="PASS" signature="orderProject()[pri:0, instance:com.qlmYFB.autotest.testCase.DYManageX@39fb3ab6]" name="orderProject" duration-ms="13655" started-at="2019-08-28T10:35:05Z" finished-at="2019-08-28T10:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderProject -->
+        <test-method status="PASS" signature="selectZhongBiao()[pri:0, instance:com.qlmYFB.autotest.testCase.DYManageX@39fb3ab6]" name="selectZhongBiao" duration-ms="8507" started-at="2019-08-28T10:35:18Z" finished-at="2019-08-28T10:35:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectZhongBiao -->
+        <test-method status="PASS" signature="orderZhongBiao()[pri:0, instance:com.qlmYFB.autotest.testCase.DYManageX@39fb3ab6]" name="orderZhongBiao" duration-ms="6757" started-at="2019-08-28T10:35:27Z" finished-at="2019-08-28T10:35:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[测试通过]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- orderZhongBiao -->
+      </class> <!-- com.qlmYFB.autotest.testCase.DYManageX -->
+    </test> <!-- lonin -->
+  </suite> <!-- Suite -->
+</testng-results>
