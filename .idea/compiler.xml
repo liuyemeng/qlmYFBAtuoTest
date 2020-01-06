@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="qlmYFBAtuoTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="qlmYFBATest" target="1.5" />
+      <module name="qlmYFBAtuoTest" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
