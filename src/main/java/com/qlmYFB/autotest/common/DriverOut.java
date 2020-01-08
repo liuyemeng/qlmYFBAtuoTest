@@ -1,4 +1,4 @@
-package com.whaty.autotest.common;
+package com.qlmYFB.autotest.common;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
