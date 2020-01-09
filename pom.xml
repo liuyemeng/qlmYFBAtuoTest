@@ -2,10 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
     <groupId>selenium</groupId>
-    <artifactId>selenium_demo</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>qlmYFBAtuoTest</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -62,11 +61,11 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.12</version>
                 <inherited>true</inherited>
-                <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>AllBookConfigure.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-                </configuration>
+                <!--<configuration>-->
+                    <!--<suiteXmlFiles>-->
+                        <!--<suiteXmlFile>AllBookConfigure.xml</suiteXmlFile>-->
+                    <!--</suiteXmlFiles>-->
+                <!--</configuration>-->
             </plugin>
         </plugins>
     </build>
