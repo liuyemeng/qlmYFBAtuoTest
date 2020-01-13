@@ -4,7 +4,7 @@
     <!--访问地址-->
     <parameter name="DomainName" value="https://weixin.qianlima.com/qlmYFB/index.html?openid=oFNc6s8Z7DfyW5CU4sVol0nBgrZQ#/subscriptionPage/zbSubscriptionPage" />
     <!--驱动器存放路径-->
-    <parameter name="ChromDriverPath" value="\lyTest\chromedriver" />
+    <parameter name="ChromDriverPath" value="chromedriver" />
     <test name="lonin">
         <classes>
             <class name="com.qlmYFB.autotest.testCase.OrginManage">
