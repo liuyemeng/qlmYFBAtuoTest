@@ -61,11 +61,11 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.12</version>
                 <inherited>true</inherited>
-                <!--<configuration>-->
-                    <!--<suiteXmlFiles>-->
-                        <!--<suiteXmlFile>AllBookConfigure.xml</suiteXmlFile>-->
-                    <!--</suiteXmlFiles>-->
-                <!--</configuration>-->
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>yfbRun.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
             </plugin>
         </plugins>
     </build>
