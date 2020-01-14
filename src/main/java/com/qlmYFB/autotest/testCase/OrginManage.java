@@ -2,6 +2,7 @@ package com.qlmYFB.autotest.testCase;
 import com.qlmYFB.autotest.common.WaitTime;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -25,6 +26,9 @@ public class OrginManage {
 //    ly谷歌驱动调用
         System.setProperty("webdriver.chrome.driver",ChromDriverPath);
         driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--no-sandbox");
+        options.addArguments("--headless");
 //    默认加载时间
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get(DomainName);
