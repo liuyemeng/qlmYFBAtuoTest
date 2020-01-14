@@ -26,7 +26,7 @@ public class OrginManage {
 //    ly谷歌驱动调用
         System.setProperty("webdriver.chrome.driver",ChromDriverPath);
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
         options.addArguments("--disable-gpu"); // applicable to windows os only
         options.addArguments("--no-sandbox");
         driver = new ChromeDriver(options);
