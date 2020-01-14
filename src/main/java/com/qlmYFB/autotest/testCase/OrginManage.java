@@ -27,11 +27,9 @@ public class OrginManage {
         System.setProperty("webdriver.chrome.driver",ChromDriverPath);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
-        options.addArguments("--disable-extensions"); // disabling extensions
         options.addArguments("--disable-gpu"); // applicable to windows os only
-        options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
         options.addArguments("--no-sandbox");
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
 //    默认加载时间
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get(DomainName);
