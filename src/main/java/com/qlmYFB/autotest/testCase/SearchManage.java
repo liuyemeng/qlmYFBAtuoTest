@@ -28,6 +28,7 @@ public class SearchManage {
         WaitTime.waitTime(2000);
         driver.findElement(By.cssSelector("div.cancel-btn-text")).click();
         WaitTime.waitTime(2000);
+        log.debug("亲爱的你成功了");
 ////        选择时间
 //        driver.findElement(By.cssSelector("p.active > span")).click();
 //        WaitTime.waitTime(2000);
