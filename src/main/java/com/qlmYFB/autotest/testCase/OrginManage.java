@@ -25,10 +25,13 @@ public class OrginManage {
     public static WebDriver BeforeUrl(String ChromDriverPath,String DomainName ) throws Exception {
 //    ly谷歌驱动调用
         System.setProperty("webdriver.chrome.driver",ChromDriverPath);
-        driver = new ChromeDriver();
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");
         options.addArguments("--headless");
+        options.addArguments("--disable-extensions"); // disabling extensions
+        options.addArguments("--disable-gpu"); // applicable to windows os only
+        options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
+        options.addArguments("--no-sandbox");
+        driver = new ChromeDriver();
 //    默认加载时间
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get(DomainName);
