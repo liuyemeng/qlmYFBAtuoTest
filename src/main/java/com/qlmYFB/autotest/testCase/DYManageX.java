@@ -23,7 +23,7 @@ import javax.security.auth.spi.LoginModule;
  */
 public class DYManageX {
     private static Logger log = Logger.getLogger(DYManageX.class);
-    static WebDriver driver;
+     WebDriver driver;
     @BeforeClass
     public void beforeClass(){
         this.driver = OrginManage.getDriver();

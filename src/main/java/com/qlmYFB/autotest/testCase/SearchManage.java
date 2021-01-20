@@ -19,7 +19,7 @@ public class SearchManage {
     @Test
     public  void  BigSearch() throws  Exception{
         WaitTime.waitTime(5000);
-        driver.findElement(By.xpath(" //*[@id=\"app\"]/div[6]/div[2]/div/div[2]")).click();
+        driver.findElement(By.xpath("//*[@id=\"app\"]/div[5]/div[2]/div/div[2]/span")).click();
 
         WaitTime.waitTime(2000);
         driver.findElement(By.cssSelector("input")).click();
