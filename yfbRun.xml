@@ -4,9 +4,9 @@
     <!--访问地址-->
     <parameter name="DomainName" value="https://weixin.qianlima.com/qlmYFB/index.html?openid=oFNc6s8Z7DfyW5CU4sVol0nBgrZQ#/subscriptionPage/zbSubscriptionPage" />
     <!--驱动器存放路径-->
-    <parameter name="ChromDriverPath" value="D:\AutoTest\01 自动化培训\01 自动化培训\自动化测试工具\测试工具\chromedriver.exe" />
-
-    <!--<parameter name="ChromDriverPath" value="/usr/bin/chromedriver" />-->
+    <!--<parameter name="ChromDriverPath" value="D:\AutoTest\01 自动化培训\01 自动化培训\自动化测试工具\测试工具\chromedriver.exe" />-->
+    <!--linux驱动器存放路径-->
+    <parameter name="ChromDriverPath" value="/usr/bin/chromedriver" />
     <test name="login">
         <classes>
             <class name="com.qlmYFB.autotest.testCase.OrginManage">
