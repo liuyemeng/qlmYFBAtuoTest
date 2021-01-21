@@ -36,8 +36,8 @@ public class OrginManage {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get(DomainName);
         WaitTime.waitTime(2000);
-        Robot robot = new Robot();
-        robot.keyPress(KeyEvent.VK_F12);
+//        Robot robot = new Robot();
+//        robot.keyPress(KeyEvent.VK_F12);
         log.debug("进入前的driver为："+driver);
         return  driver;
     }
