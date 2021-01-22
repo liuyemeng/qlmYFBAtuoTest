@@ -26,9 +26,7 @@ public class OrginManage {
 //    ly谷歌驱动调用
         System.setProperty("webdriver.chrome.driver",ChromDriverPath);
         ChromeOptions options = new ChromeOptions();
-/*
         options.addArguments("--headless");//是否显示可视窗格1
-*/
         options.addArguments("--disable-gpu"); // applicable to windows os only
         options.addArguments("--no-sandbox");
 
