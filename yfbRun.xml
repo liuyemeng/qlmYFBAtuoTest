@@ -2,9 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="false">
     <!--访问地址-->
-    <parameter name="DomainName" value="https://weixin.qianlima.com/qlmYFB/index.html?openid=oFNc6s8Z7DfyW5CU4sVol0nBgrZQ#/subscriptionPage/zbSubscriptionPage" />
+    <parameter name="DomainName" value="https://weixin.qianlima.com/qlmYFB/index.html?openid=oFNc6s3AW9yW4Yok_Z7wwCUm8UxQ#/subscriptionPage/zbSubscriptionPage" />
     <!--驱动器存放路径-->
-    <!--<parameter name="ChromDriverPath" value="D:\AutoTest\01 自动化培训\01 自动化培训\自动化测试工具\测试工具\chromedriver.exe" />-->
+<!--
+    <parameter name="ChromDriverPath" value="D:\AutoTest\01 自动化培训\01 自动化培训\自动化测试工具\测试工具\chromedriver.exe" />
+-->
     <!--linux驱动器存放路径-->
     <parameter name="ChromDriverPath" value="/usr/bin/chromedriver" />
     <test name="login">
