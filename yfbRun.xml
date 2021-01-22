@@ -7,7 +7,7 @@
 <!--
     <parameter name="ChromDriverPath" value="D:\AutoTest\01 自动化培训\01 自动化培训\自动化测试工具\测试工具\chromedriver.exe" />
 -->
-    <!--linux驱动器存放路径-->
+    <!--linux驱动器存放路径1-->
     <parameter name="ChromDriverPath" value="/usr/bin/chromedriver" />
     <test name="login">
         <classes>
