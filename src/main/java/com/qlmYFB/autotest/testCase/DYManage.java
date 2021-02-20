@@ -13,8 +13,6 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
-
 /**
  * Created by lm1121 on 2019/4/3 17:14
  */

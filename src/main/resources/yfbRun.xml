@@ -2,29 +2,32 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="false">
     <!--访问地址-->
-    <parameter name="DomainName" value="https://weixin.qianlima.com/qlmYFB/index.html?openid=oFNc6s8Z7DfyW5CU4sVol0nBgrZQ#/subscriptionPage/zbSubscriptionPage" />
+    <parameter name="DomainName" value="https://weixin.qianlima.com/qlmYFB/index.html?openid=oFNc6s3AW9yW4Yok_Z7wwCUm8UxQ#/subscriptionPage/zbSubscriptionPage" />
     <!--驱动器存放路径-->
     <parameter name="ChromDriverPath" value="D:\AutoTest\01 自动化培训\01 自动化培训\自动化测试工具\测试工具\chromedriver.exe" />
-    <test name="lonin">
+    <!--<parameter name="ChromDriverPath" value="/usr/bin/chromedriver" />-->
+
+    <test name="Yfb_WebTest">
         <classes>
             <class name="com.qlmYFB.autotest.testCase.OrginManage">
                 <methods>
                     <include name="BeforeUrl"/>
                 </methods>
             </class>
-            <!--<class name="com.qlmYFB.autotest.testCase.DYManageX">-->
-                <!--<methods>-->
-                    <!--<include name="selectZhaoBiao"/>-->
-                    <!--<include name ="orderZhaoBiao"/>-->
-                    <!--<include name="selectProject"/>-->
-                    <!--<include name="orderProject"/>-->
-                    <!--<include name="selectZhongBiao"/>-->
-                    <!--<include name="orderZhongBiao"/>-->
-                <!--</methods>-->
-            <!--</class>-->
-            <class name="com.qlmYFB.autotest.testCase.SearchManage">
+            <class name="com.qlmYFB.autotest.module.FreeDyModule">
                 <methods>
-                    <include name="BigSearch"/>
+                    <!--招标订阅-->
+                    <include name="BiddingSubscription"/>
+                    <!--招标筛选-->
+                    <include name="BiddingSubscriptionSelect"/>
+                    <!--拟建订阅-->
+                    <include name="ProposedSubscription"/>
+                    <!--拟建筛选-->
+                    <include name="ProposedSubscriptionSelect"/>
+                    <!--中标订阅-->
+                    <include name="ZhongBiddingSubscription"/>
+                    <!--中标筛选-->
+                    <include name="ZhongBiddingSubscriptionSelect"/>
                 </methods>
             </class>
         </classes>
