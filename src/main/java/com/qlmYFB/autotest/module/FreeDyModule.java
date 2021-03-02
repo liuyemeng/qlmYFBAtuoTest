@@ -1,16 +1,11 @@
 package com.qlmYFB.autotest.module;
-
 import com.qlmYFB.autotest.common.WaitTime;
 import com.qlmYFB.autotest.component.FreeDyManage;
 import com.qlmYFB.autotest.testCase.OrginManage;
-import org.openqa.selenium.WebDriver;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
-import java.util.concurrent.TimeUnit;
 /**
  * @program: selenium_demo
  * @description: qlmYFB Web Auto Project

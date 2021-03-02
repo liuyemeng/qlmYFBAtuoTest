@@ -1,13 +1,8 @@
 package com.qlmYFB.autotest.component;
 import com.qlmYFB.autotest.common.MyClick;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.StaleElementReferenceException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.*;
+
 import java.util.concurrent.TimeUnit;
 /**
  * @program: selenium_demo
@@ -21,7 +16,6 @@ public class FreeDyManage {
  /*招标订阅*/
     public static void   BiddingSubscriptionEditButton(WebDriver driver){
         WebElement element= null;
-
         try {
 
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[3]/div/div[1]/div[1]/div[3]/div"));
@@ -35,7 +29,7 @@ public class FreeDyManage {
 
         }
     }
-    public  static  void   RegionRegion(WebDriver driver){
+    public static void   RegionRegion(WebDriver driver){
         WebElement element= null;
         try {
             driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
@@ -50,7 +44,7 @@ public class FreeDyManage {
 
         }
     }
-    public  static  void   RegionSelectNationalButton(WebDriver driver){
+    public static void   RegionSelectNationalButton(WebDriver driver){
         WebElement element= null;
         try {
             driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
@@ -64,7 +58,7 @@ public class FreeDyManage {
 
         }
     }
-    public  static  void   RegionSelectBeijingButton(WebDriver driver){
+    public static void   RegionSelectBeijingButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div/div[2]/div[2]/div[2]/div[2]/div"));
@@ -78,7 +72,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void   RegionSubscriptionSaveButton(WebDriver driver){
+    public static void   RegionSubscriptionSaveButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div/div[1]/div"));
@@ -91,7 +85,7 @@ public class FreeDyManage {
             log.error("未定位到，订阅地区保存  元素");
         }
     }
-    public  static  void   DeleteKeywords(WebDriver driver){
+    public static void   DeleteKeywords(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[2]/div[3]/div[2]/div[1]/div"));
@@ -101,11 +95,11 @@ public class FreeDyManage {
                 log.debug("定位到，删除关键词  元素");
             }
         }catch (NoSuchElementException e){
-            log.error("未定位到，删除关键词  元素");
+                log.error("未定位到，删除关键词  元素");
         }
     }
 
-    public  static  void   RecommendedKeywords(WebDriver driver){
+    public static void   RecommendedKeywords(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[2]/div[4]/ul/li[1]/span"));
@@ -119,7 +113,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void   KeyWordsInput(WebDriver driver,String KeyWords){
+    public static void   KeyWordsInput(WebDriver driver,String KeyWords){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[2]/div[2]/div/div[1]/label/div/input"));
@@ -132,7 +126,7 @@ public class FreeDyManage {
             log.error("未定位到，订阅词输入框  元素");
         }
     }
-    public  static  void   KeySaveButton(WebDriver driver){
+    public static void   KeySaveButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[2]/div[2]/div/div[1]/div/div/span"));
@@ -145,7 +139,7 @@ public class FreeDyManage {
             log.error("未定位到，订阅词保存按钮  元素");
         }
     }
-    public  static  void   DySaveButton(WebDriver driver){
+    public static void   DySaveButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[2]/div/span"));
@@ -159,7 +153,7 @@ public class FreeDyManage {
         }
     }
     /*招标订阅筛选*/
-    public  static  void   AreaSelectButton(WebDriver driver){
+    public static void   AreaSelectButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.cssSelector("div.subscriptions-item"));
@@ -172,7 +166,7 @@ public class FreeDyManage {
             log.error("未定位到，地区筛选按钮  元素");
         }
     }
-    public  static  void   AreaSelectBeijingButton(WebDriver driver){
+    public static void   AreaSelectBeijingButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[3]/div/div[1]/div[2]/div[3]/div[1]/ul/li"));
@@ -185,7 +179,7 @@ public class FreeDyManage {
             log.error("未定位到，地区北京选项  元素");
         }
     }
-    public  static  void   AreaSelectBeijingYES(WebDriver driver){
+    public static void   AreaSelectBeijingYES(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.cssSelector("svg.icon.t-gray"));
@@ -198,7 +192,7 @@ public class FreeDyManage {
             log.error("未定位到，地区北京选项  元素");
         }
     }
-    public  static  void   AreaSelectBeijingNO(WebDriver driver){
+    public static void   AreaSelectBeijingNO(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.cssSelector("svg.icon.t-blue"));
@@ -212,7 +206,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void   AreaSelectConfirmButton(WebDriver driver){
+    public static void   AreaSelectConfirmButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[3]/div/div[1]/div[2]/div[3]/div[2]"));
@@ -225,7 +219,7 @@ public class FreeDyManage {
             log.error("未定位到，筛选地区确认按钮  元素");
         }
     }
-    public  static  void   ProductSelectButton(WebDriver driver){
+    public static void   ProductSelectButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[3]/div/div[1]/div[1]/div[2]"));
@@ -239,7 +233,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void   ProductSelectFirst(WebDriver driver){
+    public static void   ProductSelectFirst(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[3]/div/div[1]/div[2]/div[1]/div[1]/ul/li/div[1]"));
@@ -253,7 +247,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void   ProductSelectConfirmButton(WebDriver driver){
+    public static void   ProductSelectConfirmButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[3]/div/div[1]/div[2]/div[1]/div[2]"));
@@ -267,7 +261,7 @@ public class FreeDyManage {
         }
     }
 /*拟建订阅*/
-    public  static  void   ProposedSubscription(WebDriver driver){
+    public static void   ProposedSubscription(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[2]/div[2]/span"));
@@ -280,7 +274,7 @@ public class FreeDyManage {
             log.error("未定位到，拟建Tab  元素");
         }
     }
-    public  static  void   ProposedSubscriptionEditButton(WebDriver driver){
+    public static void   ProposedSubscriptionEditButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[2]/div/div[1]/div/aside/ul/li[4]/div/div"));
@@ -293,7 +287,7 @@ public class FreeDyManage {
             log.error("未定位到，拟建编辑按钮  元素");
         }
     }
-    public  static  void   ProposedSubscriptionSelectStage(WebDriver driver){
+    public static void   ProposedSubscriptionSelectStage(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div[1]/div[2]/div[2]/div"));
@@ -306,7 +300,7 @@ public class FreeDyManage {
             log.error("未定位到，选择阶段  元素");
         }
     }
-    public  static  void   SelectStageLeft(WebDriver driver){
+    public static void   SelectStageLeft(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div/div/div[2]/div/div/div[1]/ul/li[2]/div"));
@@ -319,7 +313,7 @@ public class FreeDyManage {
             log.error("未定位到，选择左边工程选筹备  元素");
         }
     }
-    public  static  void   SelectStageRightLand(WebDriver driver){
+    public static void   SelectStageRightLand(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div/div/div[2]/div/div/div[2]/ul/li[2]/div[2]/img"));
@@ -334,7 +328,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void   SelectStageConfirmButton(WebDriver driver){
+    public static void   SelectStageConfirmButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div/div/div[3]/button"));
@@ -348,7 +342,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void   ProposedSubscriptionSelectType(WebDriver driver){
+    public static void   ProposedSubscriptionSelectType(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div[2]/div[2]/div[2]/div"));
@@ -361,7 +355,7 @@ public class FreeDyManage {
             log.error("未定位到，选择类型  元素");
         }
     }
-    public  static  void   SelectTypeLeft(WebDriver driver){
+    public static void   SelectTypeLeft(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div/div/div[2]/div/div/div[1]/ul/li[2]/div"));
@@ -374,7 +368,7 @@ public class FreeDyManage {
             log.error("未定位到，选择左边住宅  元素");
         }
     }
-    public  static  void   SelectTypeRight(WebDriver driver){
+    public static void   SelectTypeRight(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div/div/div[2]/div/div/div[2]/ul/li[2]/div[2]/img"));
@@ -388,7 +382,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void   SelectTypeConfirmButton(WebDriver driver){
+    public static void   SelectTypeConfirmButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div/div/div[3]/button"));
@@ -401,7 +395,7 @@ public class FreeDyManage {
             log.error("未定位到，选择类型确定按钮  元素");
         }
     }
-    public  static  void   ProposedSubscriptionSelecttRegion(WebDriver driver){
+    public static void   ProposedSubscriptionSelecttRegion(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div[3]/div[2]/div/div[2]/div"));
@@ -415,7 +409,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void   SelectRegionConfirmButton(WebDriver driver){
+    public static void   SelectRegionConfirmButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[3]/div"));
@@ -428,7 +422,7 @@ public class FreeDyManage {
             log.error("未定位到，拟建订阅地区保存按钮  元素");
         }
     }
-    public  static  void   ProposedSubscriptionSaveButton(WebDriver driver){
+    public static void   ProposedSubscriptionSaveButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[2]/div"));
@@ -441,7 +435,7 @@ public class FreeDyManage {
             log.error("未定位到，拟建订阅保存按钮  元素");
         }
     }
-    public  static  void   PSRegionSelectNationalButton(WebDriver driver){
+    public static void   PSRegionSelectNationalButton(WebDriver driver){
         WebElement element= null;
         try {
             driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
@@ -455,7 +449,7 @@ public class FreeDyManage {
 
         }
     }
-    public  static  void   PSRegionSelectBeijingButton(WebDriver driver){
+    public static void   PSRegionSelectBeijingButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[2]/div/div[2]/div[2]/div[2]/div"));
@@ -660,7 +654,7 @@ public class FreeDyManage {
 
         }
     }
-    public  static  void   ZhongRegionRegion(WebDriver driver){
+    public static void   ZhongRegionRegion(WebDriver driver){
         WebElement element= null;
         try {
             driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
@@ -675,7 +669,7 @@ public class FreeDyManage {
 
         }
     }
-    public  static  void   ZhongRegionSelectNationalButton(WebDriver driver){
+    public static void   ZhongRegionSelectNationalButton(WebDriver driver){
         WebElement element= null;
         try {
             driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
@@ -689,7 +683,7 @@ public class FreeDyManage {
 
         }
     }
-    public  static  void   ZhongRegionSelectBeijingButton(WebDriver driver){
+    public static void   ZhongRegionSelectBeijingButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div/div[2]/div[2]/div[2]/div[2]/div"));
@@ -703,7 +697,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void   ZhongRegionSubscriptionSaveButton(WebDriver driver){
+    public static void   ZhongRegionSubscriptionSaveButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div/div[1]/div"));
@@ -716,7 +710,7 @@ public class FreeDyManage {
             log.error("未定位到，订阅地区保存  元素");
         }
     }
-    public  static  void   ZhongDeleteKeywords(WebDriver driver){
+    public static void   ZhongDeleteKeywords(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[2]/div[3]/div[2]/div[1]/div"));
@@ -730,7 +724,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void   ZhongRecommendedKeywords(WebDriver driver){
+    public static void   ZhongRecommendedKeywords(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[2]/div[4]/ul/li[1]/span"));
@@ -744,7 +738,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void  ZhongKeyWordsInput(WebDriver driver,String KeyWords){
+    public static void  ZhongKeyWordsInput(WebDriver driver,String KeyWords){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[2]/div[2]/div/div[1]/label/div/input"));
@@ -757,7 +751,7 @@ public class FreeDyManage {
             log.error("未定位到，订阅词输入框  元素");
         }
     }
-    public  static  void   ZhongKeySaveButton(WebDriver driver){
+    public static void   ZhongKeySaveButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[2]/div[2]/div/div[1]/div/div/span"));
@@ -770,7 +764,7 @@ public class FreeDyManage {
             log.error("未定位到，订阅词保存按钮  元素");
         }
     }
-    public  static  void   ZhongDySaveButton(WebDriver driver){
+    public static void   ZhongDySaveButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[2]/div"));
@@ -784,7 +778,7 @@ public class FreeDyManage {
         }
     }
 /*中标筛选*/
-    public  static  void   ZhongAreaSelectButton(WebDriver driver){
+    public static void  ZhongAreaSelectButton(WebDriver driver){
     WebElement element= null;
     try {
         element=driver.findElement(By.cssSelector("div.subscriptions-item"));
@@ -797,7 +791,7 @@ public class FreeDyManage {
         log.error("未定位到，地区筛选按钮  元素");
     }
 }
-    public  static  void   ZhongAreaSelectBeijingButton(WebDriver driver){
+    public static void   ZhongAreaSelectBeijingButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[3]/div/div[1]/div[4]/div[3]/div[1]/ul/li"));
@@ -810,7 +804,7 @@ public class FreeDyManage {
             log.error("未定位到，地区北京选项  元素");
         }
     }
-    public  static  void   ZhongAreaSelectBeijingYES(WebDriver driver){
+    public static void   ZhongAreaSelectBeijingYES(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.cssSelector("svg.icon.t-gray"));
@@ -823,7 +817,7 @@ public class FreeDyManage {
             log.error("未定位到，地区北京选项  元素");
         }
     }
-    public  static  void   ZhongAreaSelectBeijingNO(WebDriver driver){
+    public static void   ZhongAreaSelectBeijingNO(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.cssSelector("svg.icon.t-blue"));
@@ -837,7 +831,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void   ZhongAreaSelectConfirmButton(WebDriver driver){
+    public static void   ZhongAreaSelectConfirmButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[3]/div/div[1]/div[4]/div[3]/div[2]"));
@@ -850,7 +844,7 @@ public class FreeDyManage {
             log.error("未定位到，筛选地区确认按钮  元素");
         }
     }
-    public  static  void   ZhongProductSelectButton(WebDriver driver){
+    public static void   ZhongProductSelectButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[3]/div/div[1]/div[2]/div[1]/span"));
@@ -864,7 +858,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void   ZhongProductSelectFirst(WebDriver driver){
+    public static void   ZhongProductSelectFirst(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[3]/div/div[1]/div[4]/div[1]/div[1]/ul/li/div"));
@@ -878,7 +872,7 @@ public class FreeDyManage {
         }
     }
 
-    public  static  void   ZhongProductSelectConfirmButton(WebDriver driver){
+    public static void   ZhongProductSelectConfirmButton(WebDriver driver){
         WebElement element= null;
         try {
             element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div/div[3]/div/div[1]/div[4]/div[1]/div[2]"));

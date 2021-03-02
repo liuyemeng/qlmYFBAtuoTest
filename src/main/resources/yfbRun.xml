@@ -30,6 +30,25 @@
                     <include name="ZhongBiddingSubscriptionSelect"/>
                 </methods>
             </class>
+
+            <class name="com.qlmYFB.autotest.module.SearchModule">
+                <methods>
+                    <!--搜索中的Vip特权-->
+                    <include name="SearchVip"/>
+                    <!--搜索中的大搜索-->
+                    <include name="SearchBig"/>
+                    <!--搜索中招标搜索-->
+                    <include name="BiddingSearch"/>
+                    <!--搜索中拟建搜索-->
+                    <include name="ProposedSearch"/>
+                    <!--搜索中中标搜索-->
+                    <include name="ZhongBiddingSearch"/>
+                    <!--搜索中的企业查询-->
+                    <include name="CompanySearch"/>
+                    <!--搜索中的企业查询-->
+                    <include name="SupplySearch"/>
+                </methods>
+            </class>
         </classes>
     </test  >
     <listeners>
