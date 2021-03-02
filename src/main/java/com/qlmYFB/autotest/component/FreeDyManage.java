@@ -290,7 +290,7 @@ public class FreeDyManage {
     public static void   ProposedSubscriptionSelectStage(WebDriver driver){
         WebElement element= null;
         try {
-            element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div[1]/div[2]/div[2]/div"));
+            element = driver.findElement(By.xpath("//*[contains(text(),'修改阶段')]"));
             driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
             if(element.isDisplayed()){
                 element.click();
@@ -345,7 +345,8 @@ public class FreeDyManage {
     public static void   ProposedSubscriptionSelectType(WebDriver driver){
         WebElement element= null;
         try {
-            element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div[2]/div[2]/div[2]/div"));
+//            element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div[2]/div[2]/div[2]/div"));
+            element = driver.findElement(By.xpath("//*[contains(text(),'修改类型')]"));
             driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
             if(element.isDisplayed()){
                 element.click();
@@ -398,7 +399,7 @@ public class FreeDyManage {
     public static void   ProposedSubscriptionSelecttRegion(WebDriver driver){
         WebElement element= null;
         try {
-            element=driver.findElement(By.xpath("//*[@id=\"app\"]/div[4]/div[1]/div[3]/div[2]/div/div[2]/div"));
+            element = driver.findElement(By.xpath("//*[contains(text(),'添加地区')]"));
             driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
             if(element.isDisplayed()){
                 element.click();
