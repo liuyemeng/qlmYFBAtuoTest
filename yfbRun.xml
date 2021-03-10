@@ -45,8 +45,8 @@
                     <include name="ZhongBiddingSearch"/>
                     <!--搜索中的企业查询-->
                     <include name="CompanySearch"/>
-                    <!--搜索中的企业查询-->
-                    <include name="SupplySearch"/>
+                <!--    &lt;!&ndash;搜索中的企业查询&ndash;&gt;
+                    <include name="SupplySearch"/>-->
                 </methods>
             </class>
         </classes>
