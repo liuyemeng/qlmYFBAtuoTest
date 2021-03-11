@@ -2586,4 +2586,585 @@
   2021-03-10 16:53:26 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
   2021-03-10 16:53:26 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
   2021-03-10 16:53:26 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+  2021-03-11 09:56:56 [DEBUG] - javax.security.auth.spi.LoginModule -OrginManage.java(36) -进入前的driver为：ChromeDriver: chrome on XP (5d367d783c54cd41852aa1f808224504)
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index.ftl"): Found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head.ftl"): Found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav.ftl"): Found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+  2021-03-11 09:56:58 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+  2021-03-11 09:58:10 [DEBUG] - javax.security.auth.spi.LoginModule -OrginManage.java(36) -进入前的driver为：ChromeDriver: chrome on XP (bf53fb116f98fa8963aae706214d6cd7)
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index.ftl"): Found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head.ftl"): Found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav.ftl"): Found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+  2021-03-11 09:58:12 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+  2021-03-11 09:58:41 [DEBUG] - javax.security.auth.spi.LoginModule -OrginManage.java(36) -进入前的driver为：ChromeDriver: chrome on XP (c5883d28b2fd409e6faaffe7c2d6e12d)
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index.ftl"): Found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head.ftl"): Found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav.ftl"): Found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+  2021-03-11 09:58:43 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+  2021-03-11 10:14:07 [DEBUG] - javax.security.auth.spi.LoginModule -OrginManage.java(36) -进入前的driver为：ChromeDriver: chrome on XP (2367c5c8f68e9a7fd328ec21e1d6384d)
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index.ftl"): Found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head.ftl"): Found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav.ftl"): Found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+  2021-03-11 10:14:09 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+  2021-03-11 10:20:44 [DEBUG] - javax.security.auth.spi.LoginModule -OrginManage.java(36) -进入前的driver为：ChromeDriver: chrome on XP (d78e226c4a9b6710b6668693c88bb61c)
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index.ftl"): Found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head.ftl"): Found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav.ftl"): Found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+  2021-03-11 10:20:46 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+  2021-03-11 10:22:35 [DEBUG] - javax.security.auth.spi.LoginModule -OrginManage.java(36) -进入前的driver为：ChromeDriver: chrome on XP (f4619edf6a133aaf0ff6bd4fe6349d54)
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index.ftl"): Found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head.ftl"): Found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav.ftl"): Found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+  2021-03-11 10:22:56 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+  2021-03-11 10:26:50 [DEBUG] - javax.security.auth.spi.LoginModule -OrginManage.java(36) -进入前的driver为：ChromeDriver: chrome on XP (d1af6a60aaaa4f485b38616954c1d635)
+  2021-03-11 10:27:10 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:27:10 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+  2021-03-11 10:27:10 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index.ftl"): Found
+  2021-03-11 10:27:10 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head.ftl"): Found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav.ftl"): Found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+  2021-03-11 10:27:11 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+  2021-03-11 10:33:40 [DEBUG] - javax.security.auth.spi.LoginModule -OrginManage.java(36) -进入前的driver为：ChromeDriver: chrome on XP (884b0bd55525172e1005da8c9e750712)
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index.ftl"): Found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head.ftl"): Found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav.ftl"): Found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+  2021-03-11 10:34:01 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+  2021-03-11 10:34:22 [DEBUG] - javax.security.auth.spi.LoginModule -OrginManage.java(36) -进入前的driver为：ChromeDriver: chrome on XP (6236e8eb3fde97c57105d91e690ace08)
+  2021-03-11 10:34:22 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(25) -定位到，订阅编辑按钮  元素
+  2021-03-11 10:34:24 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(40) -定位到，选择编辑地区区域  元素
+  2021-03-11 10:34:26 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(54) -定位到，选择全国按钮  元素
+  2021-03-11 10:34:26 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(68) -定位到，选择北京按钮  元素
+  2021-03-11 10:34:26 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(82) -定位到，订阅地区保存  元素
+  2021-03-11 10:34:28 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(95) -定位到，删除关键词  元素
+  2021-03-11 10:34:29 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(123) -定位到，订阅词输入框  元素
+  2021-03-11 10:34:29 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(136) -定位到，订阅词保存按钮  元素
+  2021-03-11 10:34:29 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(149) -定位到，订阅保存按钮  元素
+  2021-03-11 10:34:31 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(163) -定位到，地区筛选按钮  元素
+  2021-03-11 10:34:33 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(176) -定位到，地区北京选项  元素
+  2021-03-11 10:34:35 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(189) -定位到，地区北京选项  元素
+  2021-03-11 10:34:39 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(229) -定位到，筛选产品确认按钮  元素
+  2021-03-11 10:34:41 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(243) -定位到，选择第一个产品  元素
+  2021-03-11 10:34:43 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(257) -定位到，选择产品确定按钮  元素
+  2021-03-11 10:34:45 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(271) -定位到，拟建Tab  元素
+  2021-03-11 10:34:47 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(284) -定位到，拟建编辑按钮  元素
+  2021-03-11 10:34:49 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(297) -定位到，选择阶段  元素
+  2021-03-11 10:34:51 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(310) -定位到，选择左边工程选筹备  元素
+  2021-03-11 10:34:57 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(338) -定位到，选择阶段确定按钮  元素
+  2021-03-11 10:34:59 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(353) -定位到，选择类型  元素
+  2021-03-11 10:35:01 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(366) -定位到，选择左边住宅  元素
+  2021-03-11 10:35:05 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(393) -定位到，选择类型确定按钮  元素
+  2021-03-11 10:35:07 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(406) -定位到，选择地区  元素
+  2021-03-11 10:35:09 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(446) -定位到，选择全国按钮  元素
+  2021-03-11 10:35:11 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(460) -定位到，选择北京按钮  元素
+  2021-03-11 10:35:13 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(420) -定位到，拟建订阅地区保存按钮  元素
+  2021-03-11 10:35:15 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(433) -定位到，拟建订阅保存按钮  元素
+  2021-03-11 10:35:17 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(474) -定位到，拟建订阅地区筛选按钮 元素
+  2021-03-11 10:35:19 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(488) -定位到，拟建订阅地区筛选全国按钮 元素
+  2021-03-11 10:35:21 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(501) -定位到，拟建订阅地区筛选北京按钮 元素
+  2021-03-11 10:35:24 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(514) -定位到，拟建订阅地区筛选确定按钮 元素
+  2021-03-11 10:35:26 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(527) -定位到，拟建订阅阶段筛选按钮 元素
+  2021-03-11 10:35:28 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(540) -定位到，拟建订阅阶段筛选工程筹备 元素
+  2021-03-11 10:35:30 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(553) -定位到，拟建订阅阶段筛选工国土 元素
+  2021-03-11 10:35:32 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(567) -定位到，拟建订阅阶段筛选确定按钮 元素
+  2021-03-11 10:35:34 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(582) -定位到，拟建订阅类型筛选按钮 元素
+  2021-03-11 10:35:36 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(595) -定位到，拟建订阅类型左侧筛选按钮 元素
+  2021-03-11 10:35:38 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(608) -定位到，拟建订阅类型右侧筛选按钮 元素
+  2021-03-11 10:35:40 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(622) -定位到，拟建订阅类型筛选确定按钮 元素
+  2021-03-11 10:35:42 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(636) -定位到，中标订阅tab 元素
+  2021-03-11 10:35:44 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(651) -定位到，订阅编辑按钮  元素
+  2021-03-11 10:35:46 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(666) -定位到，选择编辑地区区域  元素
+  2021-03-11 10:35:48 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(680) -定位到，选择全国按钮  元素
+  2021-03-11 10:35:48 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(694) -定位到，选择北京按钮  元素
+  2021-03-11 10:35:49 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(708) -定位到，订阅地区保存  元素
+  2021-03-11 10:35:51 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(721) -定位到，删除关键词  元素
+  2021-03-11 10:35:51 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(749) -定位到，订阅词输入框  元素
+  2021-03-11 10:35:53 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(762) -定位到，订阅词保存按钮  元素
+  2021-03-11 10:35:55 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(775) -定位到，订阅保存按钮  元素
+  2021-03-11 10:35:57 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(789) -定位到，地区筛选按钮  元素
+  2021-03-11 10:35:59 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(802) -定位到，地区北京选项  元素
+  2021-03-11 10:36:01 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(815) -定位到，地区北京选项  元素
+  2021-03-11 10:36:03 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(842) -定位到，筛选地区确认按钮  元素
+  2021-03-11 10:36:05 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(855) -定位到，筛选产品确认按钮  元素
+  2021-03-11 10:36:07 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(869) -定位到，选择第一个产品  元素
+  2021-03-11 10:36:09 [DEBUG] - com.qlmYFB.autotest.component.FreeDyManage -FreeDyManage.java(883) -定位到，选择产品确定按钮  元素
+  2021-03-11 10:36:11 [DEBUG] - com.qlmYFB.autotest.component.SearchManage -SearchManage.java(29) -定位到，搜索tab 元素
+  2021-03-11 10:36:14 [DEBUG] - com.qlmYFB.autotest.component.SearchManage -SearchManage.java(44) -定位到，搜索VIP特权 元素
+  2021-03-11 10:37:24 [DEBUG] - javax.security.auth.spi.LoginModule -OrginManage.java(36) -进入前的driver为：ChromeDriver: chrome on XP (503f16749fd21ec71e85e9aba298c9e1)
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index.ftl"): Found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head.ftl"): Found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav.ftl"): Found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+  2021-03-11 10:38:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+  2021-03-11 10:38:51 [DEBUG] - javax.security.auth.spi.LoginModule -OrginManage.java(36) -进入前的driver为：ChromeDriver: chrome on XP (71a34282efa9bf5e92498ba86564e613)
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index.ftl"): Found
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head.ftl"): Found
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav.ftl"): Found
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+  2021-03-11 10:41:25 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+  2021-03-11 10:41:48 [DEBUG] - javax.security.auth.spi.LoginModule -OrginManage.java(36) -进入前的driver为：ChromeDriver: chrome on XP (57806da29e43b2077230c29ee5b71d3f)
+  2021-03-11 10:42:08 [DEBUG] - com.qlmYFB.autotest.component.MoreManage -MoreManage.java(28) -定位到，更多Tab 元素
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index.ftl"): Found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head.ftl"): Found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav.ftl"): Found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+  2021-03-11 10:42:30 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+  2021-03-11 10:43:10 [DEBUG] - javax.security.auth.spi.LoginModule -OrginManage.java(36) -进入前的driver为：ChromeDriver: chrome on XP (d0460cbd845399164b7235a9ff99eda9)
+  2021-03-11 10:43:12 [DEBUG] - com.qlmYFB.autotest.component.MoreManage -MoreManage.java(28) -定位到，更多Tab 元素
+  2021-03-11 10:43:14 [DEBUG] - com.qlmYFB.autotest.component.MoreManage -MoreManage.java(43) -定位到，供求市场图标 元素
+  2021-03-11 10:43:16 [DEBUG] - com.qlmYFB.autotest.component.MoreManage -MoreManage.java(56) -定位到，供求市场-二级搜索框 元素
+  2021-03-11 10:43:19 [DEBUG] - com.qlmYFB.autotest.component.MoreManage -MoreManage.java(69) -定位到，供求市场-二级输入内容 元素
+  2021-03-11 10:43:21 [DEBUG] - com.qlmYFB.autotest.component.MoreManage -MoreManage.java(83) -定位到，供求市场-二级搜索-确定按钮 元素
+  2021-03-11 10:43:23 [DEBUG] - com.qlmYFB.autotest.component.MoreManage -MoreManage.java(96) -定位到，供求市场-第一条信息 元素
+  2021-03-11 10:43:25 [DEBUG] - com.qlmYFB.autotest.component.MoreManage -MoreManage.java(109) -定位到，供求市场-信息返回 元素
+  2021-03-11 10:43:27 [DEBUG] - com.qlmYFB.autotest.component.MoreManage -MoreManage.java(123) -定位到，供求市场-信息返回-返回 元素
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("index.ftl"): Found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("head.ftl"): Found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("nav.ftl"): Found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+  2021-03-11 10:43:27 [DEBUG] - freemarker.cache -_Log4jLoggerFactory.java(45) -Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/D:/software/apache-maven-3.3.3-bin/apache-maven-3.3.3/repo/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
   

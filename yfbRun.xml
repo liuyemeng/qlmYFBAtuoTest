@@ -52,6 +52,8 @@
         </classes>
     </test  >
     <listeners>
+
+
         <listener class-name="com.qlmYFB.autotest.common.ExtentTestNGIReporterListener"></listener>
     </listeners>
 </suite>

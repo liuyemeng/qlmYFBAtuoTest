@@ -30,7 +30,6 @@
                     <include name="ZhongBiddingSubscriptionSelect"/>
                 </methods>
             </class>
-
             <class name="com.qlmYFB.autotest.module.SearchModule">
                 <methods>
                     <!--搜索中的Vip特权-->
@@ -45,8 +44,13 @@
                     <include name="ZhongBiddingSearch"/>
                     <!--搜索中的企业查询-->
                     <include name="CompanySearch"/>
-                    <!--&lt;!&ndash;搜索中的企业查询&ndash;&gt;-->
-                    <!--<include name="SupplySearch"/>-->
+
+                </methods>
+            </class>
+            <class name="com.qlmYFB.autotest.module.MoreModule">
+                <methods>
+                    <!--搜索中的企业查询-->
+                    <include name="SupplySearch"/>
                 </methods>
             </class>
         </classes>

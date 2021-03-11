@@ -134,24 +134,7 @@ public class SearchModule {
 //        SearchManage.CompabySeeMBackBack(driver);
 
     }
-    /*供求市场*/
-    @Test
-    public static void SupplySearch(){
-        WaitTime.waitTime(2000);
-        SearchManage.SupplySearch(driver);
-        WaitTime.waitTime(2000);
-        SearchManage.SupplySearchTwo(driver);
-        WaitTime.waitTime(2000);
-        SearchManage.SupplySearchTwoInput(driver,KeyWords);
-        WaitTime.waitTime(2000);
-        SearchManage.SupplySearchTwoInputConfirm(driver);
-        WaitTime.waitTime(2000);
-        SearchManage.SupplySearchSeeM(driver);
-        WaitTime.waitTime(2000);
-        SearchManage.SupplySearchSeeMBack(driver);
-        WaitTime.waitTime(2000);
-        SearchManage.SupplySearchSeeBackBack(driver);
-    }
+
     /*企业监控*/
     @Test
     public static void FocusedEnterprise(){
