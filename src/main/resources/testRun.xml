@@ -14,11 +14,10 @@
                     <include name="BeforeUrl"/>
                 </methods>
             </class>
-            <class name="com.qlmYFB.autotest.module.SearchModule">
+            <class name="com.qlmYFB.autotest.module.MoreModule">
                 <methods>
-                    <!--搜索中的Vip特权-->
-                    <include name="SearchVip"/>
-
+                    <!--搜索中的企业查询-->
+                    <include name="SupplySearch"/>
                 </methods>
             </class>
         </classes>
